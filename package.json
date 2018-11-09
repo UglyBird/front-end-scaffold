@@ -1,0 +1,33 @@
+{
+  "name": "pitted",
+  "version": "1.0.0",
+  "description": "front-end-scaffold",
+  "main": "app.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scaffold"
+  ],
+  "author": "liutao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-root-import": "^6.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.4.1"
+  },
+  "dependencies": {
+    "koa": "^2.6.1"
+  }
+}
